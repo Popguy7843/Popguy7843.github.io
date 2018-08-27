@@ -1,0 +1,321 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/**
+ * Text color palette
+ */
+
+.light {
+  color: rgb(43, 43, 43);
+}
+
+.success,
+.warning,
+.dark,
+body>header a {
+  color: white;
+}
+
+a {
+  color: rgb(70, 165, 255);
+}
+
+/**
+ * Background color palette
+ */
+
+body.dark,
+body.dark:hover,
+summary.dark,
+details.dark>ul,
+details.dark>ul:hover,
+details.dark>p,
+details.dark>p:hover,
+details.dark>div,
+details.dark>div:hover {
+  background-color: rgb(30, 30, 30);
+}
+
+.dark,
+body>header {
+  background-color: rgb(40, 40, 40);
+}
+
+button.dark:hover,
+summary.dark:hover {
+  background-color: rgb(70, 70, 70);
+}
+
+button {
+  background-color: rgb(200, 200, 200);
+}
+
+button:hover {
+  background-color: rgb(210, 210, 210);
+}
+
+.light,
+button.light:hover,
+summary.light:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+body.light,
+body.light:hover,
+summary.light,
+details.light>ul,
+details.light>ul:hover,
+details.light>p,
+details.light>p:hover,
+details.light>div,
+details.light>div:hover {
+  background-color: white;
+}
+
+.success {
+  background-color: rgb(43, 248, 43);
+}
+
+.warning {
+  background-color: rgb(221, 44, 44);
+}
+
+.success:hover {
+  background-color: rgb(86, 255, 86);
+}
+
+.warning:hover {
+  background-color: rgb(255, 67, 67);
+}
+
+img.media {
+  background-color: transparent;
+}
+
+/**
+ * Transition
+ */
+
+button {
+  transition: all 0.25s ease;
+}
+
+details,
+details *,
+.container {
+  transition: all 0.5s ease;
+}
+
+/**
+ * Sizing
+ */
+
+button {
+  min-width: 5rem;
+}
+
+nav img,
+img.media {
+  width: 32px;
+  height: 32px;
+}
+
+.w-1 {
+  width: 100%;
+}
+
+.w-2 {
+  width: 50%;
+}
+
+.w-3 {
+  width: 33%;
+}
+
+.w-4 {
+  width: 25%;
+}
+
+/**
+ * Margin
+ */
+
+body,
+ul {
+  margin: 0;
+}
+
+.container,
+nav>* {
+  margin: 0 5px 0 5px;
+}
+
+li {
+  margin: 5px 0 5px 0;
+}
+
+.row {
+  margin: 10px;
+}
+
+details>details,
+details>ul {
+  margin-left: 15px;
+}
+
+/**
+ * Padding
+ */
+
+.container {
+  padding: 25px;
+}
+
+button,
+summary {
+  padding: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+details>ul {
+  padding: 10px 20px 10px 20px;
+}
+
+body>header {
+  padding: 1px 60px 1px 60px;
+}
+
+main {
+  padding: 10px 60px 10px 60px;
+}
+
+footer {
+  padding: 0 0 10px 60px;
+}
+
+/**
+ * Cursor
+ */
+
+button:hover,
+summary:hover {
+  cursor: pointer;
+}
+
+/**
+ * Filter
+ */
+
+img.media.light,
+body>header img.media.dark {
+  filter: invert(100%);
+}
+
+img.media:hover {
+  filter: contrast(0%) invert(100%);
+}
+
+/**
+ * Display
+ */
+
+nav,
+section>a,
+.container>header>* {
+  display: inline-block;
+}
+
+.row {
+  display: flex;
+}
+
+/**
+ * List-style-type
+ */
+
+ul,
+summary {
+  list-style-type: none;
+}
+
+/**
+ * Text-decoration
+ */
+
+a {
+  text-decoration: none;
+}
+
+/**
+ * Border
+ */
+
+button {
+  border: none;
+}
+
+/**
+ * Font-size
+ */
+
+summary {
+  font-size: 18px;
+}
+
+/**
+ * Unique
+ */
+
+body>header nav {
+  top: 30px;
+  position: absolute;
+  right: 50px;
+}
+
+.container>header>a {
+  width: 10%;
+  float: right;
+  padding: 15px 20px 0 0;
+}
+
+@media only screen and (max-width: 800px) {
+  body>header {
+    padding: 1px 0 10px 0;
+  }
+  main {
+    padding: 10px;
+  }
+  footer {
+    padding: 0;
+  }
+  body>header,
+  footer {
+    text-align: center;
+  }
+  body>header nav {
+    top: 0;
+    position: initial;
+  }
+  body>header nav img {
+    margin: 7.5px;
+  }
+  .container {
+    margin: 10px 0 10px 0;
+  }
+  .row {
+    display: inline-block;
+    margin: -5px 0 -5px 0;
+  }
+  .row,
+  .w-1,
+  .w-2,
+  .w-3,
+  .w-4 {
+    width: 100%;
+  }
+}
