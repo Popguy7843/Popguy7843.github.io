@@ -45,7 +45,7 @@ body>header {
   background-color: rgb(40, 40, 40);
 }
 
-.dark .dark,
+.container.dark .dark,
 button.dark:hover,
 summary.dark:hover {
   background-color: rgba(70, 70, 70, 0.719);
@@ -55,12 +55,13 @@ button {
   background-color: rgb(200, 200, 200);
 }
 
-.light .light,
+.container.light .container.light,
 button:hover {
   background-color: rgba(210, 210, 210, 0.438);
 }
 
 .light,
+details.light,
 button.light:hover,
 summary.light:hover {
   background-color: rgb(240, 240, 240);
@@ -235,7 +236,7 @@ body>header img.media.dark {
 }
 
 img.media:hover {
-  filter: contrast(0%) invert(100%);
+  filter: contrast(0%) invert(100%) !important;
 }
 
 /**
