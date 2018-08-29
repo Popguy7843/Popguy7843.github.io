@@ -1,7 +1,7 @@
-# Simple Website Templates 
+# Simple Website Template
 
-## Description 
-A collection of simple website templates.
+## Description
+A simple and clean website template.
 
 ## Examples
 

@@ -14,7 +14,7 @@
 .success,
 .warning,
 .dark,
-body>header a {
+body>header * {
   color: white;
 }
 
@@ -29,6 +29,8 @@ a {
 body.dark,
 body.dark:hover,
 summary.dark,
+details.dark>ol,
+details.dark>ol:hover,
 details.dark>ul,
 details.dark>ul:hover,
 details.dark>p,
@@ -65,6 +67,8 @@ summary.light:hover {
 body.light,
 body.light:hover,
 summary.light,
+details.light>ol,
+details.light>ol:hover,
 details.light>ul,
 details.light>ul:hover,
 details.light>p,
@@ -143,7 +147,8 @@ img.media {
  */
 
 body,
-ul {
+ul,
+ol {
   margin: 0;
 }
 
@@ -161,7 +166,8 @@ li {
 }
 
 details>details,
-details>ul {
+details>ul,
+details>ol {
   margin-left: 15px;
 }
 
@@ -174,12 +180,17 @@ details>ul {
 }
 
 button,
-summary {
+summary,
+input[type="text"] {
   padding: 10px;
 }
 
 ul {
   padding-left: 20px;
+}
+
+details>ol {
+  padding: 1px 0 1px 30px;
 }
 
 details>ul {
@@ -255,15 +266,21 @@ a {
  * Border
  */
 
-button {
+button,
+input[type="text"] {
   border: none;
+}
+
+input[type="text"]:focus {
+  border: solid 1px rgb(70, 165, 255);
 }
 
 /**
  * Font-size
  */
 
-summary {
+summary,
+input[type="text"] {
   font-size: 18px;
 }
 
