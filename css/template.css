@@ -45,17 +45,19 @@ body>header {
   background-color: rgb(40, 40, 40);
 }
 
+.dark .dark,
 button.dark:hover,
 summary.dark:hover {
-  background-color: rgb(70, 70, 70);
+  background-color: rgba(70, 70, 70, 0.719);
 }
 
 button {
   background-color: rgb(200, 200, 200);
 }
 
+.light .light,
 button:hover {
-  background-color: rgb(210, 210, 210);
+  background-color: rgba(210, 210, 210, 0.438);
 }
 
 .light,
@@ -115,6 +117,11 @@ details *,
 /**
  * Sizing
  */
+
+.row > textarea,
+.container > textarea {
+  width: 100%;
+}
 
 button {
   min-width: 5rem;

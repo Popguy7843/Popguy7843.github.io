@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+textarea {
+  width: 41rem;
+  height: 10rem;
+  overflow: auto;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+.col {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 480px) {
+  textarea {
+    width: 100%;
+  }
+  .col {
+    width: 100%;
+    display: block;
+    padding: 1px;
+  }
+  button {
+    width: 100%;
+    padding: 5px;
+  }
+}
