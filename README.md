@@ -3,38 +3,78 @@
 ## Description
 A simple and clean website template.
 
-## Examples
+## Motivation
+The main reason why I have created this simple website template is because I want to quickly build new websites. Additionally, I do not have any structure in the websites built before the creation of this template, so they look unorganized and unprofessional.
+
+## Usage
+
+#### For those who are unfamiliar with file paths:
+
+The `./` in file paths represents the current directory.  
+The `../` in file paths represents the previous directory.  
+
+For example, if I wanted to access `picture.jpg` the `/img` directory from `index.html`, I would use the file path `./img/picture.jpg`. However, if I were to access the `/img` from an adjacent directory, such as `/css`, I would use the file path `../img/picture.jpg`.
+
+### Colors
+  
+Tags with `light` or `dark` classes will change to their opposite colors when the `dayMode()` / `nightMode()` functions are called.
+
+``` html
+<div class="light"></div>
+<div class="dark"></div>
+```
+ 
+Recommended tags that should use the `light` or `dark` class:  
+
+``` html
+<body>  
+<img class="media">  
+<div class="container">  
+<section class="container">  
+<details>  
+<summary>  
+<code>  
+<th>
+<td>
+```
+
+### Night Mode Implementation
+
+``` html
+<!-- Night mode style -->
+<link rel="stylesheet" href="./css/night.css">
+
+<!-- Night mode switch -->
+<img src="./img/sun.svg" alt="Toggle Night Mode" title="Toggle Night Mode" id="nightModeSwitch" onclick="toggleNightMode()">
+
+<!-- Night mode script -->
+<script src="./js/night.js"></script>
+```
+
+### Widths
+
+``` html
+<div class="w-1"></div> <!-- width: 100% -->
+<div class="w-2"></div> <!-- width:  50% -->
+<div class="w-3"></div> <!-- width:  33% -->
+<div class="w-4"></div> <!-- width:  25% -->
+```
+
+### Padding
+
+``` html
+<div class="p-25"></div> <!-- padding: 25px -->
+<div class="p-10"></div> <!-- padding: 10px -->
+<div class="p-5"></div>  <!-- padding:  5px -->
+```
 
 ### Containers
+
+The recommended tags for containers are `section` or `div`, depending on the content of the container.
+
 ``` html
-<!-- Classes "light" and "dark" change the container color -->
-
-<!-- 100% width container -->
-<section class="dark container w-1">
-  <header>
-    <h2>Container Heading</h2>
-  </header>
-  <p>Container content</p>
-</section>
-
-<!-- 50% width container -->
-<section class="dark container w-2">
-  <header>
-    <h2>Container Heading</h2>
-  </header>
-  <p>Container content</p>
-</section>
-
-<!-- 33% width container -->
+<!-- Light-colored 33% width container -->
 <section class="light container w-3">
-  <header>
-    <h2>Container Heading</h2>
-  </header>
-  <p>Container content</p>
-</section>
-
-<!-- 25% width container -->
-<section class="light container w-4">
   <header>
     <h2>Container Heading</h2>
   </header>
@@ -43,6 +83,10 @@ A simple and clean website template.
 ```
 
 ### Collapsible
+
+HTML5 allows us to easily create a collapsible using the `details` and `summary` tags.  
+The `details` tag displays its contents based on whether the `summary` has been clicked or not.
+
 ``` html
 <details class="light">
   <summary class="dark">Buttons</summary>
@@ -55,18 +99,21 @@ A simple and clean website template.
 ```
 
 ### Buttons
+
+Success buttons are green and warning buttons are red.
+
 ``` html
 <!-- Success button -->
 <button class="success">Success</button>
 
 <!-- Warning button -->
 <button class="warning">Warning</button>
-
-<!-- Dark button -->
-<button class="dark">Dark</button>
 ```
 
 ### Social Media Logo Links 
+
+The `nav` bar is highly recommended for the first `header`, however is not necessary for anywhere else. There is no support for `footer` media links at the moment.
+
 ``` html
 <!-- Replace "example123" with your username -->
 <!-- Replace "./" with the correct path if necessary -->
@@ -154,16 +201,4 @@ A simple and clean website template.
   </a>
 
 </nav>
-```
-
-### Night Mode
-``` html
-<!-- Night mode style -->
-<link rel="stylesheet" href="/css/night.css">
-
-<!-- Night mode switch -->
-<img src="./img/sun.svg" alt="Toggle Night Mode" title="Toggle Night Mode" id="nightModeSwitch" onclick="toggleNightMode()">
-
-<!-- Night mode script -->
-<script src="./js/night"></script>
 ```

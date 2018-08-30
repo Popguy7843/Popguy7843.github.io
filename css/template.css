@@ -1,6 +1,21 @@
+/**
+ * Box-sizing
+ */
+
 * {
   box-sizing: border-box;
+}
+
+/**
+ * Font-family
+ */
+
+* {
   font-family: sans-serif;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /**
@@ -51,10 +66,12 @@ summary.dark:hover {
   background-color: rgba(70, 70, 70, 0.719);
 }
 
+th.light,
 button {
   background-color: rgb(200, 200, 200);
 }
 
+code.light,
 .container.light .container.light,
 button:hover {
   background-color: rgba(210, 210, 210, 0.438);
@@ -183,18 +200,23 @@ details>ol {
  * Padding
  */
 
+.p-25,
 .container {
   padding: 25px;
 }
 
+.p-10,
 button,
 summary,
 input[type="text"] {
   padding: 10px;
 }
 
-ul {
-  padding-left: 20px;
+th,
+td,
+code,
+.p-5 {
+  padding: 5px;
 }
 
 details>ol {
@@ -215,6 +237,10 @@ main {
 
 footer {
   padding: 0 0 10px 60px;
+}
+
+ul {
+  padding-left: 20px;
 }
 
 /**
