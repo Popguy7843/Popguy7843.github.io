@@ -31,28 +31,37 @@ function check(element) {
   return element;
 }
 
-function toggleNightMode() {
+function nightMode() {
   let all = document.getElementsByTagName("*");
+  for (let i = 0; i < all.length; i++) {
+    if (isDark(all[i])) {
+      all[i] = brighten(all[i]);
+    } else if (isBright(all[i])) {
+      all[i] = darken(all[i]);
+    }
+  }
+}
+
+function dayMode() {
+  let all = document.getElementsByTagName("*");
+  for (let i = 0; i < all.length; i++) {
+    if (isBright(all[i])) {
+      all[i] = darken(all[i]);
+    } else if (isDark(all[i])) {
+      all[i] = brighten(all[i]);
+    }
+  }
+}
+
+function toggleNightMode() {
   let nightModeSwitch = document.getElementById("nightModeSwitch");
   
   if (isChecked(nightModeSwitch)) {
     nightModeSwitch.style.filter = "grayscale(0%)";
-    for (let i = 0; i < all.length; i++) {
-      if (isDark(all[i])) {
-        all[i] = brighten(all[i]);
-      } else if (isBright(all[i])) {
-        all[i] = darken(all[i]);
-      }
-    }
+    nightMode();
   } else {
     nightModeSwitch.style.filter = "grayscale(100%)";
-    for (let i = 0; i < all.length; i++) {
-      if (isBright(all[i])) {
-        all[i] = darken(all[i]);
-      } else if (isDark(all[i])) {
-        all[i] = brighten(all[i]);
-      }
-    }
+    dayMode();
   }
 
   nightModeSwitch = check(nightModeSwitch);
