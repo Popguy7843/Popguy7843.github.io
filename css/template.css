@@ -2,7 +2,7 @@
  * Box-sizing
  */
 
-* {
+ * {
   box-sizing: border-box;
 }
 
@@ -62,7 +62,9 @@ body>header {
 
 .container.dark .dark,
 button.dark:hover,
-summary.dark:hover {
+button.dark:focus,
+summary.dark:hover,
+summary.dark:focus {
   background-color: rgba(70, 70, 70, 0.719);
 }
 
@@ -73,14 +75,17 @@ button {
 
 code.light,
 .container.light .container.light,
-button:hover {
+button:hover,
+button:focus {
   background-color: rgba(210, 210, 210, 0.438);
 }
 
 .light,
 details.light,
 button.light:hover,
-summary.light:hover {
+button.light:focus,
+summary.light:hover,
+summary.light:focus {
   background-color: rgb(240, 240, 240);
 }
 
@@ -106,11 +111,13 @@ details.light>div:hover {
   background-color: rgb(221, 44, 44);
 }
 
-.success:hover {
+.success:hover,
+.success:focus {
   background-color: rgb(86, 255, 86);
 }
 
-.warning:hover {
+.warning:hover,
+.warning:focus {
   background-color: rgb(255, 67, 67);
 }
 
@@ -124,6 +131,10 @@ img.media {
 
 button {
   transition: all 0.25s ease;
+}
+
+button:focus {
+  outline: none;
 }
 
 details,
