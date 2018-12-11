@@ -330,6 +330,14 @@ input[type="text"] {
 }
 
 /**
+ * Word-wrap
+ */
+
+li {
+  word-wrap: break-word;
+}
+
+/**
  * Unique
  */
 
