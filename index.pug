@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title airicbear.github.io
+    style
+      include ./css/main.css
+    link(rel="shortcut icon", href="./img/avatar.png", type="image/x-icon")
+  body
+    header
+      h1
+        img(src="./img/avatar.png", alt="airicbear's avatar", width=64, height=64).avatar
+        | airicbear
+      mixin profile(platform)
+        a(href="https://" + platform + ".com/airicbear").profile
+          img(src="./img/" + platform + ".svg", alt="" + platform + ".com/airicbear", width=32, height=32)
+      nav
+        +profile("github")
+        +profile("gitlab")
+        +profile("bitbucket")
+    mixin section(letter)
+      section(class=letter, id=letter)
+        h2= letter
+        ul
+          block
+    mixin ghpage(repo)
+      li
+        a(href="https://airicbear.github.io/" + repo)= repo
+    mixin ghrepo(repo)
+      li
+        a(href="https://github.com/airicbear/" + repo)= repo
+    +section("A")
+      +ghpage("aboutme")
+      +ghrepo("A_Look_at_Atmospheric_CO2")
+      +ghpage("apple")
+      +ghrepo("ap-stats")
+    +section("B")
+      +ghpage("bars")
+      +ghpage("berwynnails")
+      +ghpage("breakout")
+      +ghpage("bts")
+    +section("C")
+      +ghrepo("calculus-homework")
+      +ghrepo("calculus-notes")
+      +ghpage("canvas-clock")
+    +section("D")
+      +ghpage("diary")
+      +ghpage("dracula-project")
+    +section("F")
+      +ghpage("five")
+    +section("G")
+      +ghpage("game-stuff")
+    +section("H")
+      +ghpage("Hello-World")
+      +ghpage("hi")
+      +ghpage("hi-again")
+      +ghpage("hi-eric")
+      +ghpage("high-school-stuff")
+      +ghpage("html5game")
+    +section("J")
+      +ghpage("john-napier-project")
+    +section("M")
+      +ghrepo("maximum-sustainable-harvest")
+      +ghpage("ml5js-getting-started")
+    +section("N")
+      +ghpage("nlp-podcast")
+      +ghrepo("node-js-getting-started")
+      +ghpage("number-guesser")
+    +section("P")
+      +ghrepo("path-of-a-baseball")
+      +ghpage("PictureCollection")
+      +ghpage("Pong")
+      +ghpage("pug-cli-demo")
+      +ghpage("pyramid-text")
+    +section("R")
+      +ghpage("reactjs-tut")
+    +section("S")
+      +ghpage("sha256-online-hasher")
+      +ghpage("sha256-web")
+      +ghpage("simple-game")
+      +ghpage("simple-login")
+      +ghpage("simple-website-template")
+      +ghpage("simple-website-template-2")
+      +ghpage("sketchrnn-showflakes")
+      +ghpage("snakegame")
+      +ghrepo("space-math")
+      +ghpage("superhero-json")
+    +section("T")
+      +ghrepo("taylor-polynomial-worksheet")
+      +ghpage("twice")
+    +section("W")
+      +ghpage("webpack-demo")
+      +ghpage("werner-heisenberg")
+      +ghpage("winter-theme-2018")

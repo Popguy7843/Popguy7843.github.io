@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(255, 247, 238);
+    color: #444;
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.6;
+    font-size: 18px;
+    padding: 0 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a:focus {
+    outline: dashed 2px rgba(0, 0, 0, 0.5);
+}
+
+.avatar {
+    border-radius: 100%;
+    margin: 0 20px 0 0;
+}
+
+.profile {
+    margin: 0 10px 0 0;
+}
+
+.profile:hover {
+    filter: invert(25%) sepia(100%);
+    opacity: 0.75;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2;
+}

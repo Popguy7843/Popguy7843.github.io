@@ -1,4 +1,4 @@
 # airicbear.github.io
 
 ## Description
-Index of websites I've worked on.
+Index of my work.
