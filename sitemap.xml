@@ -3,34 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://airicbear.github.io/about/</loc>
+    <lastmod>2019-08-18T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://airicbear.github.io/</loc>
+    <lastmod>2019-08-18T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://airicbear.github.io/posts/</loc>
     <lastmod>2019-08-11T00:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://airicbear.github.io/posts/termux-dwm-guide/</loc>
     <lastmod>2019-08-11T00:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/2019/08/termux-dwm-guide/</loc>
-    <lastmod>2019-08-11T00:00:00-04:00</lastmod>
+    <loc>https://airicbear.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/about/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://airicbear.github.io/tags/</loc>
   </url>
   
 </urlset>

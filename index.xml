@@ -1,46 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Eric Nguyen&#39;s Personal Website on airicbear</title>
-    <link>http://example.org/</link>
-    <description>Recent content in Eric Nguyen&#39;s Personal Website on airicbear</description>
+    <title>airicbear</title>
+    <link>https://airicbear.github.io/</link>
+    <description>Recent content on airicbear</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>© 2019 Eric Nguyen</copyright>
-    <lastBuildDate>Sun, 11 Aug 2019 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 18 Aug 2019 00:00:00 -0400</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://airicbear.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Termux dwm Guide</title>
-      <link>http://example.org/posts/2019/08/termux-dwm-guide/</link>
-      <pubDate>Sun, 11 Aug 2019 00:00:00 -0400</pubDate>
-      
-      <guid>http://example.org/posts/2019/08/termux-dwm-guide/</guid>
-      <description>Installation Apps  Termux VNC Viewer  Termux Within Termux, execute the following commands:
-pkg install x11-repo dwm st tigervnc echo &amp;#34;dwm &amp;amp;&amp;#34; &amp;gt; ~/.vnc/xstartup echo &amp;#34;export DISPLAY=\&amp;#34;:1\&amp;#34;&amp;#34; &amp;gt;&amp;gt; ~/.bashrc Notes:
- You can replace dwm with your preferred window manager such as openbox (I tried i3, but it didn&amp;rsquo;t work for whatever reason). We install st terminal here, but you can use whichever terminal you prefer that is available in Termux (e.</description>
-    </item>
     
     <item>
       <title>About</title>
-      <link>http://example.org/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://airicbear.github.io/about/</link>
+      <pubDate>Sun, 18 Aug 2019 00:00:00 -0400</pubDate>
       
-      <guid>http://example.org/about/</guid>
-      <description>Table of Contents  Introduction Background  Dance Programming    
-Introduction Hi! I&amp;rsquo;m Eric Nguyen, but I go by the alias, &amp;ldquo;airicbear&amp;rdquo;, online. I&amp;rsquo;m a freshman at the main campus of Temple University majoring in Data Science with a concentration in computation and modeling.
-In my free time, I like to scroll through social news feeds (e.g. Hacker News), explore new technologies (e.g. GitHub Trending), and dance.</description>
+      <guid>https://airicbear.github.io/about/</guid>
+      <description>Introduction Hi! I&amp;rsquo;m Eric Nguyen, but I go by the alias, &amp;ldquo;airicbear,&amp;rdquo; online. I&amp;rsquo;m an undergraduate first year at the main campus of Temple University majoring in Data Science with a concentration in computation and modeling.
+In my free time, I like to scroll through social news feeds (e.g. Hacker News), explore new technologies (e.g. GitHub Trending), and dance.
+Background Dance I started dancing back in elementary school around 4th grade when I was introduced to dubstep by my older brother.</description>
     </item>
     
     <item>
-      <title>Contact</title>
-      <link>http://example.org/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Termux dwm Guide</title>
+      <link>https://airicbear.github.io/posts/termux-dwm-guide/</link>
+      <pubDate>Sun, 11 Aug 2019 00:00:00 -0400</pubDate>
       
-      <guid>http://example.org/contact/</guid>
-      <description> GitHub: airicbear Keybase: airicbear Twitter: @airicbear  </description>
+      <guid>https://airicbear.github.io/posts/termux-dwm-guide/</guid>
+      <description>Installation Apps  Termux VNC Viewer  Termux Within Termux, execute the following commands:
+pkg install x11-repo dwm st tigervnc echo &amp;quot;dwm &amp;amp;&amp;quot; &amp;gt; ~/.vnc/xstartup echo &amp;quot;export DISPLAY=\&amp;quot;:1\&amp;quot;&amp;quot; &amp;gt;&amp;gt; ~/.bashrc  Notes:
+ You can replace dwm with your preferred window manager such as openbox (I tried i3, but it didn&amp;rsquo;t work for whatever reason). We install st terminal here, but you can use whichever terminal you prefer that is available in Termux (e.</description>
     </item>
     
   </channel>
