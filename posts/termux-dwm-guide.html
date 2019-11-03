@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-11-03 Sun 12:07 -->
+<!-- 2019-11-03 Sun 11:23 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>airicbear.github.io</title>
+<title>Termux dwm Guide</title>
 <meta name="generator" content="Org mode" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
@@ -241,40 +241,123 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<h1 class="title">airicbear.github.io</h1>
-<div id="outline-container-org8a661c6" class="outline-2">
-<h2 id="org8a661c6"><span class="section-number-2">1</span> Links</h2>
+<h1 class="title">Termux dwm Guide</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org90e4859">1. Installation</a>
+<ul>
+<li><a href="#org42e36d3">1.1. Apps</a></li>
+<li><a href="#org927e242">1.2. Termux</a></li>
+</ul>
+</li>
+<li><a href="#org6021c97">2. Run</a></li>
+<li><a href="#org5b7b076">3. Connect</a></li>
+<li><a href="#org3940366">4. Clean up</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org90e4859" class="outline-2">
+<h2 id="org90e4859"><span class="section-number-2">1</span> Installation</h2>
 <div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org42e36d3" class="outline-3">
+<h3 id="org42e36d3"><span class="section-number-3">1.1</span> Apps</h3>
+<div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
-<li><a href="./about">About</a></li>
-<li><a href="./posts">Blog</a></li>
-<li><a href="./gallery">Gallery</a></li>
+<li><a href="https://termux.com/">Termux</a></li>
+<li><a href="https://www.realvnc.com/en/connect/download/viewer/android/">VNC Viewer</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org90390d1" class="outline-2">
-<h2 id="org90390d1"><span class="section-number-2">2</span> Sherlock <span class="timestamp-wrapper"><span class="timestamp">[2019-11-03 Sun 12:00]</span></span></h2>
+
+<div id="outline-container-org927e242" class="outline-3">
+<h3 id="org927e242"><span class="section-number-3">1.2</span> Termux</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+Within Termux, execute the following commands:
+</p>
+
+<pre class="example">
+pkg install x11-repo dwm st tigervnc
+echo "dwm &amp;" &gt; ~/.vnc/xstartup
+echo "export DISPLAY=\":1\"" &gt;&gt; ~/.bashrc
+</pre>
+
+<p>
+<b>Notes:</b>
+</p>
+
+<ul class="org-ul">
+<li>You can replace <code>dwm</code> with your preferred window manager such as <code>openbox</code> (I tried <code>i3</code>, but it didn't work for whatever reason).</li>
+<li>We install <code>st</code> terminal here, but you can use whichever terminal you prefer that is available in Termux (e.g. <code>aterm</code>, <code>xterm</code>).</li>
+<li><code>~/.vnc/xstartup</code> is the file that specifies which programs are run on startup. In this case, we tell X to run <code>dwm</code> on startup.</li>
+<li>Instead of using <code>echo</code>, you can use your preferred text editor such as <code>nano</code>, <code>vi</code>, or <code>ed</code>. If your text editor isn't available, you can simply install it by executing <code>pkg install</code> and your package name (e.g. <code>pkg install nano</code>).</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org6021c97" class="outline-2">
+<h2 id="org6021c97"><span class="section-number-2">2</span> Run</h2>
 <div class="outline-text-2" id="text-2">
-<ul class="org-ul">
-<li>AskFM: <a href="https://ask.fm/airicbear">https://ask.fm/airicbear</a></li>
-<li>BitBucket: <a href="https://bitbucket.org/airicbear/">https://bitbucket.org/airicbear/</a></li>
-<li>GitHub: <a href="https://www.github.com/airicbear">https://www.github.com/airicbear</a></li>
-<li>GitLab: <a href="https://gitlab.com/airicbear">https://gitlab.com/airicbear</a></li>
-<li>Gravatar: <a href="http://en.gravatar.com/airicbear">http://en.gravatar.com/airicbear</a></li>
-<li>Instagram: <a href="https://www.instagram.com/airicbear">https://www.instagram.com/airicbear</a></li>
-<li>Itch.io: <a href="https://airicbear.itch.io/">https://airicbear.itch.io/</a></li>
-<li>Kaggle: <a href="https://www.kaggle.com/airicbear">https://www.kaggle.com/airicbear</a></li>
-<li>Keybase: <a href="https://keybase.io/airicbear">https://keybase.io/airicbear</a></li>
-<li>Kongregate: <a href="https://www.kongregate.com/accounts/airicbear">https://www.kongregate.com/accounts/airicbear</a></li>
-<li>Launchpad: <a href="https://launchpad.net/~airicbear">https://launchpad.net/~airicbear</a></li>
-<li>LeetCode: <a href="https://leetcode.com/airicbear">https://leetcode.com/airicbear</a></li>
-<li>Medium: <a href="https://medium.com/@airicbear">https://medium.com/@airicbear</a></li>
-<li>Repl.it: <a href="https://repl.it/@airicbear">https://repl.it/@airicbear</a></li>
-<li>Scratch: <a href="https://scratch.mit.edu/users/airicbear">https://scratch.mit.edu/users/airicbear</a></li>
-<li>Slack: <a href="https://airicbear.slack.com">https://airicbear.slack.com</a></li>
-<li>TikTok: <a href="https://www.tiktok.com/@airicbear">https://www.tiktok.com/@airicbear</a></li>
-<li>Twitter: <a href="https://www.twitter.com/airicbear">https://www.twitter.com/airicbear</a></li>
-</ul>
+<p>
+To run dwm, you will need to start a local X server and then connect to it.
+To do so, you can execute the following in Termux:
+</p>
+
+<pre class="example">
+vncserver -localhost
+</pre>
+
+<p>
+When you initialize a server with <code>vncserver</code> for the first time, you'll be prompted for password setup, it's fairly straightforward.
+If you don't know what to answer for the last question just respond no.
+</p>
+
+<pre class="example">
+Would you like to enter a view-only password (y/n)? n
+</pre>
+</div>
+</div>
+
+<div id="outline-container-org5b7b076" class="outline-2">
+<h2 id="org5b7b076"><span class="section-number-2">3</span> Connect</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+To connect to your newly hosted server, you can open the VNC Viewer app on your phone and add a new connection by pressing the circle "plus" button.
+For your address, type <code>127.0.0.1:</code> and then your port number.
+To calculate your port number, add your display number to 5900.
+In this case, we use 1 as our display number, as set in our <code>~/.bashrc</code>, so we'd write in our address form, <code>127.0.0.1:5901</code>.
+The name can be whatever you want it to be, but I simply use <code>Termux</code> for it.
+</p>
+
+<p>
+Now that you've setup your connection, you can easily connect to it through the VNC Viewer menu and entering your password.
+If you've successfully connected, congratulations!
+If you have no idea how to use dwm, you can refer to <a href="https://ratfactor.com/slackware/dwm/">Dave's Visual Guide to dwm</a>.
+Basically, <code>Alt+Shift+Enter</code> to open terminals, <code>Alt+Shift+c</code> to close windows.
+If you were unable to connect to your server, refer to <a href="https://wiki.termux.com/wiki/Graphical_Environment">Termux's official guide</a> on setting up a graphical environment, as I may have missed something.
+</p>
+
+<p>
+<b>Note:</b> For some reason, I have trouble opening certain programs such as <code>mupdf</code>, <code>dmenu</code>, and <code>emacs</code>.
+So if you've got the same problems, then I wouldn't worry too much about it, unless you've seen it work for other people.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org3940366" class="outline-2">
+<h2 id="org3940366"><span class="section-number-2">4</span> Clean up</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+To kill a server (replace <code>1</code> with your server index):
+</p>
+
+<pre class="example">
+vncserver -kill :1
+</pre>
 </div>
 </div>
 </div>

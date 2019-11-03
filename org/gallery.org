@@ -1,0 +1,9 @@
+#+title: Gallery
+#+options: html-postamble:nil
+#+export_file_name: ../gallery/index
+* 3D Models
+- [[../gallery/3d-models/ak47.png][/gallery/3d-models/ak47.png]]
+- [[../gallery/3d-models/couch.png][/gallery/3d-models/couch.png]]
+- [[../gallery/3d-models/grenade.png][/gallery/3d-models/grenade.png]]
+- [[../gallery/3d-models/knife.png][/gallery/3d-models/knife.png]]
+- [[../gallery/3d-models/pistol.png][/gallery/3d-models/pistol.png]]
