@@ -1,6 +1,7 @@
 #+title: airicbear.github.io
 #+options: toc:nil html-postamble:nil
 #+export_file_name: index
+#+setupfile: ./main.setup
 * Links
 - [[./about][About]]
 - [[./posts][Blog]]

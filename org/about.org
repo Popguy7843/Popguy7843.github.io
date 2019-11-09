@@ -1,6 +1,7 @@
 #+title: About
 #+options: html-postamble:nil
 #+export_file_name: ../about/index.html
+#+setupfile: ../main.setup
 * Introduction
 I'm a freshman majoring in [[https://bulletin.temple.edu/undergraduate/science-technology/computer-information-science/data-science-computation-modeling-bs/][Data Science with a concentration in computation and modeling]].
 * Background
