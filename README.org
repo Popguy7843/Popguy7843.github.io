@@ -2,26 +2,42 @@
 #+options: toc:nil html-postamble:nil
 #+export_file_name: index
 #+setupfile: ./main.setup
-* Links
+* Navigation
 - [[./about][About]]
 - [[./posts][Blog]]
 - [[./gallery][Gallery]]
-* Sherlock [2019-11-03 Sun 12:00]
-- AskFM: https://ask.fm/airicbear
+* Links
+- 2Dimensions: https://2Dimensions.com/a/airicbear
+- About.me: https://about.me/airicbear
 - BitBucket: https://bitbucket.org/airicbear/
+- BuyMeACoffee: https://buymeacoff.ee/airicbear
+- Canva: https://www.canva.com/airicbear
+- CashMe: https://cash.me/airicbear
+- Codecademy: https://www.codecademy.com/profiles/airicbear
+- Codewars: https://www.codewars.com/users/airicbear
+- Facebook: https://www.facebook.com/airicbear23
 - GitHub: https://www.github.com/airicbear
 - GitLab: https://gitlab.com/airicbear
-- Gravatar: http://en.gravatar.com/airicbear
+- HackerNews: https://news.ycombinator.com/user?id=airicbear
+- HackerRank: https://hackerrank.com/airicbear
 - Instagram: https://www.instagram.com/airicbear
+- Instructables: https://www.instructables.com/member/airicbear
 - Itch.io: https://airicbear.itch.io/
 - Kaggle: https://www.kaggle.com/airicbear
 - Keybase: https://keybase.io/airicbear
 - Kongregate: https://www.kongregate.com/accounts/airicbear
 - Launchpad: https://launchpad.net/~airicbear
 - LeetCode: https://leetcode.com/airicbear
+- Mastodon: https://mastodon.social/@airicbear
 - Medium: https://medium.com/@airicbear
-- Repl.it: https://repl.it/@airicbear
 - Scratch: https://scratch.mit.edu/users/airicbear
-- Slack: https://airicbear.slack.com
+- SoundCloud: https://soundcloud.com/airicbear
+- SourceForge: https://sourceforge.net/u/airicbear
+- Telegram: https://t.me/airicbear
 - TikTok: https://www.tiktok.com/@airicbear
+- Tinder: https://www.gotinder.com/@airicbear
+- Twitch: https://www.twitch.tv/airicbear
 - Twitter: https://www.twitter.com/airicbear
+- Venmo: https://venmo.com/airicbear
+- YouTube: https://www.youtube.com/channel/UCmGDakp9-fro-G5e_At56Aw
+- osu!: https://osu.ppy.sh/users/13478450
