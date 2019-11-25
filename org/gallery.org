@@ -8,3 +8,5 @@
 - [[../gallery/3d-models/grenade.png][/gallery/3d-models/grenade.png]]
 - [[../gallery/3d-models/knife.png][/gallery/3d-models/knife.png]]
 - [[../gallery/3d-models/pistol.png][/gallery/3d-models/pistol.png]]
+* Vector Art
+- [[../gallery/vector-art/airicbear0002.svg][/gallery/vector-art/airicbear0002.svg]]
