@@ -92,6 +92,10 @@
     }
 }
 
+body {
+    word-wrap: break-word;
+}
+
 pre {
     box-shadow: none;
 }
