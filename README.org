@@ -17,6 +17,7 @@
 - Codewars: https://www.codewars.com/users/airicbear
 - DataCamp: https://www.datacamp.com/profile/airicbear
 - Dataquest: https://app.dataquest.io/profile/19nguyene
+- DEV Community: https://dev.to/airicbear
 - Facebook: https://www.facebook.com/airicbear23
 - GitHub: https://www.github.com/airicbear
 - GitLab: https://gitlab.com/airicbear
@@ -30,14 +31,18 @@
 - LeetCode: https://leetcode.com/airicbear
 - Mastodon: https://mastodon.social/@airicbear
 - Medium: https://medium.com/@airicbear
+- osu!: https://osu.ppy.sh/users/13478450
+- Quora: https://www.quora.com/profile/Eric-Nguyen-369
 - Scratch: https://scratch.mit.edu/users/airicbear
 - SoundCloud: https://soundcloud.com/airicbear
 - SourceForge: https://sourceforge.net/u/airicbear
+- Stack Overflow: https://stackoverflow.com/users/12446460/eric-nguyen
 - Telegram: https://t.me/airicbear
 - TikTok: https://www.tiktok.com/@airicbear
 - Tinder: https://www.gotinder.com/@airicbear
 - Twitch: https://www.twitch.tv/airicbear
 - Twitter: https://www.twitter.com/airicbear
 - Venmo: https://venmo.com/airicbear
+- Vimeo: https://vimeo.com/airicbear
+- Wikipedia: https://en.wikipedia.org/wiki/User:Airicbear
 - YouTube: https://www.youtube.com/channel/UCmGDakp9-fro-G5e_At56Aw
-- osu!: https://osu.ppy.sh/users/13478450
