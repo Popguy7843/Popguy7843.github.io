@@ -1,2 +1,4 @@
 #+html_head: <link rel="stylesheet" type="text/css" href="css/main.css">
 #+html_head: <link rel="stylesheet" type="text/css" href="../css/main.css">
+#+html_head: <link rel="icon" href="favicon.ico">
+#+html_head: <link rel="icon" href="../favicon.ico">
