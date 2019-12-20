@@ -1,16 +1,173 @@
 #+title: airicbear.github.io
-#+options: toc:nil html-postamble:nil
 #+export_file_name: index
-#+setupfile: ./main.setup
-* Navigation
-- [[./about][About]]
-- [[./posts][Blog]]
-- [[./gallery][Gallery]]
+#+options: toc:2
+#+html_head: <link rel="stylesheet" type="text/css" href="main.css">
+#+html_head: <link rel="icon" href="favicon.ico">
+* About me
+** Introduction
+I'm a freshman majoring in [[https://bulletin.temple.edu/undergraduate/science-technology/computer-information-science/data-science-computation-modeling-bs/][Data Science with a concentration in computation and modeling]] at [[https://www.temple.edu/][Temple University]].
+I currently staff the welcome desk at the [[https://library.temple.edu/lcdss][Loretta C. Duckworth Scholars Studio]] as a student worker.
+** Background
+*** Dance
+    I started dancing back in elementary school around 4th grade when I was [[https://www.invidio.us/watch?v=fMDvZ6bdqZE][introduced to dubstep]] by my older brother.
+    I quickly picked up dance by watching other dancers such as RemoteKontrol on YouTube and would practice dancing all the time.
+    I thought I was the best dancer ever and all of my schoolmates would always ask me to show them my dance moves.
+    Everyone in school would know me as the kid who is good at dancing.
+
+    In 6th grade, I was introduced to b-boying, again by my older brother.
+    This style of dancing proved to be much more difficult for me to pick up, so I didn't dedicate much time to it like I did with dubstep.
+    I did, however, do b-boying for my SDL (Self-Directed Learning) project, so I did gain some basic skills from that.
+
+    I gradually lost interest in dancing since 7th grade until 9th grade, when I first joined my high school's [[https://invidio.us/watch?v=ROZiVK4r3F4][hip hop club]].
+    I would attend the club meetings every week and dance with or compete against other club members.
+    At first, I mostly incorporated popping style dancing to compensate for my lack of b-boying skills, but I eventually kept learning new moves; the backspin being my best.
+    Even though I was less experienced than others, my biggest advantage was my ability to dance on beat, which allowed me to win several club tournaments.
+
+    Once I got to 10th grade, most of the good dancers had already graduated or quit the club.
+    The beginning of the year was great, as new members had joined and so I had people to teach.
+    I was so excited to watch the new members grow into awesome b-boys/b-girls.
+    Little did I know back then that some of them would come to be some of my best friends.
+    Unfortunately, the club quickly started to die out and members would only occasionally show up.
+    One day, a member had told me of a newly created K-pop dance club that she joined and invited me to join as well.
+    I hadn't really listened to K-pop before other than Gangnam Style, but it wasn't like there was much to do in hip hop club anyway, and so I joined.
+    I honestly expected to only visit the club for a day or two and leave, since I didn't think K-pop would be for me.
+    To my surprise, at my first club meeting with them, I noticed that a fair number of the hip hop club members were already involved.
+    The first choreography we learned was for the song [[https://invidio.us/watch?v=jdlDhEso650][/Rhythm Ta/ by iKON]] and I was super clueless, but I tried my best.
+    I ended up making some of my best and worst memories in this club and the whole year was a roller coaster ride of emotions.
+    I did continue with the club in 11th grade, however it was much more laid back that year and less of a wild experience compared to 10th grade.
+
+    In 12th grade, I stopped practicing dancing and switched to a different school.
+    Perhaps I would have continued to dance with my friends back at my previous school if I had the social capacity to do so.
+    Unfortunately, I failed to stay in touch with them from social anxiety and I had no friends at my new school, so I focused my time and energy on learning math and coding instead.
+
+    Growing up as the quiet kid in school, dance really helped me socially and it was a great conversation starter.
+    I'm very thankful for my brother for introducing it to me in the first place and for the amazing people I had the chance to meet because of it.
+*** Programming
+    As with everything, my older brother also introduced me to computer programming back in 7th grade.
+    He initially showed me how to create websites using HTML, CSS, and JavaScript.
+    I was quickly hooked and motivated to learn all about coding and making websites.
+    I pretty much learned all about coding through Codecademy, w3schools, and most importantly, my brother.
+    He would sit down with me all night to go over topics and help me with any issues and it was surprisingly fun, even though I often had no idea what he was talking about.
+    I remember how he would introduce me to a bunch of different things like Bootstrap, Angular, GitHub, Node.js, vim, etc. and it was all so overwhelming.
+    We also used to code together using LiveWeave and make random websites together.
+
+    After my first taste of coding with web development, I began to learn how to use the Unity game engine using JavaScript.
+    One of the games I made was a simple first-person game where the player would walk around with an axe and when it touches a tree, the tree disappears.
+    I hosted that game on my friend's Wix website.
+
+    In 8th grade, I joined a small coding club in school where I learned how to use the Logo programming language.
+    I also made a [[https://github.com/airicbear/8th-grade-science-fair][ball rolling game]] for my science fair project.
+
+    In 9th grade, I joined computer science club and had coding classes for my elective.
+    I wrote a bunch of websites this year [[https://airicbear.github.io/john-napier-project/images/scr01.png][using Notepad++]] and showed them to all of my friends through 000webhost.
+    One of the websites I did was for a history [[https://airicbear.github.io/john-napier-project/][project on John Napier]] and even though it wasn't amazing, I was super proud of it back then.
+
+    In 10th grade, I took an Alice & Java elective where I made cool animations using logic.
+    I mostly focused on dancing this year.
+
+    In 11th grade, I took AP Computer Science A and learned all about Java.
+    This is the year where I actually started understanding computer science for real.
+    I made a [[https://github.com/airicbear?utf8=%E2%9C%93&tab=repositories&q=apcs&type=&language=][bunch of projects]] in that class and was quite proud of them.
+    One of my biggest side projects of that year was my [[https://hi-eric.000webhostapp.com/][Bootstrap portfolio website]], where I learned how to use PHP to generate content from MySQL databases.
+    In the middle of the school year (Winter of 2018), I figured that there should be a way for me to put my code online, so I rediscovered Git and GitHub.
+    I regret not using it much earlier back when my brother showed me it; there are a number projects that I lost and would love to look back at.
+
+    In 12th grade, [[https://github.com/airicbear/calculus-homework][I took Calculus]] where I was the only student, so I tried out all sorts of cool things such as Python, R, Julia, Jupyter, LaTeX, KaTeX, Linux, pandoc, i3wm, etc.
+    Jupyter Notebooks were awesome since it supported math markup and plots, but it since my teacher printed out all of my completed assignments, I had to find an alternative.
+    This is when I found out about LaTeX.
+    First, I used Overleaf, which was pretty good; it even had vim keybindings.
+    But then I realized that I wanted to do my math homework on the bus, so I needed a way to compile my LaTeX offline.
+    Texmaker was super clunky to use and there were no vim keybindings, but it worked.
+    Finally, I found latexmk and I've been using it with vim as my primary way to write LaTeX.
+    In the last semester of the year, I started using this workflow to complete [[https://github.com/airicbear/university-physics-modern][physics assignments]] as well and it was awesome.
+* Blog
+** 2019-08-11 Termux dwm Guide
+*** Installation
+
+**** Apps
+
+     - [[https://termux.com/][Termux]]
+     - [[https://www.realvnc.com/en/connect/download/viewer/android/][VNC Viewer]]
+
+**** Termux
+
+     Within Termux, execute the following commands:
+
+     #+begin_example
+     pkg install x11-repo dwm st tigervnc
+     echo "dwm &" > ~/.vnc/xstartup
+     echo "export DISPLAY=\":1\"" >> ~/.bashrc
+     #+end_example
+
+     *Notes:*
+
+     - You can replace =dwm= with your preferred window manager such as =openbox= (I tried =i3=, but it didn't work for whatever reason).
+     - We install =st= terminal here, but you can use whichever terminal you prefer that is available in Termux (e.g. =aterm=, =xterm=).
+     - =~/.vnc/xstartup= is the file that specifies which programs are run on startup. In this case, we tell X to run =dwm= on startup.
+     - Instead of using =echo=, you can use your preferred text editor such as =nano=, =vi=, or =ed=. If your text editor isn't available, you can simply install it by executing =pkg install= and your package name (e.g. =pkg install nano=).
+
+*** Run 
+
+    To run dwm, you will need to start a local X server and then connect to it.
+    To do so, you can execute the following in Termux:
+
+    #+begin_example
+    vncserver -localhost
+    #+end_example
+
+    When you initialize a server with =vncserver= for the first time, you'll be prompted for password setup, it's fairly straightforward.
+    If you don't know what to answer for the last question just respond no.
+
+    #+begin_example
+    Would you like to enter a view-only password (y/n)? n
+    #+end_example
+
+*** Connect
+
+    To connect to your newly hosted server, you can open the VNC Viewer app on your phone and add a new connection by pressing the circle "plus" button.
+    For your address, type =127.0.0.1:= and then your port number.
+    To calculate your port number, add your display number to 5900.
+    In this case, we use 1 as our display number, as set in our =~/.bashrc=, so we'd write in our address form, =127.0.0.1:5901=.
+    The name can be whatever you want it to be, but I simply use =Termux= for it.
+
+    Now that you've setup your connection, you can easily connect to it through the VNC Viewer menu and entering your password.
+    If you've successfully connected, congratulations!
+    If you have no idea how to use dwm, you can refer to [[https://ratfactor.com/slackware/dwm/][Dave's Visual Guide to dwm]].
+    Basically, =Alt+Shift+Enter= to open terminals, =Alt+Shift+c= to close windows.
+    If you were unable to connect to your server, refer to [[https://wiki.termux.com/wiki/Graphical_Environment][Termux's official guide]] on setting up a graphical environment, as I may have missed something.
+
+    *Note:* For some reason, I have trouble opening certain programs such as =mupdf=, =dmenu=, and =emacs=.
+    So if you've got the same problems, then I wouldn't worry too much about it, unless you've seen it work for other people.
+
+*** Clean up
+
+    To kill a server (replace =1= with your server index):
+
+    #+begin_example
+    vncserver -kill :1
+    #+end_example
+** 2019-11-08 Renaming A User Folder in Windows 10
+*** Introduction
+Lately, I've been using Windows 10 again and in the process of setting up my Windows 10 account, I made the mistake of including a space in my user folder name, e.g. =C:/Users/Eric Nguyen=.
+
+At one point, it became apparent to me that this space character was breaking programs, so I decided to rename my user folder name to omit the space by following instructions I found on StackExchange: https://superuser.com/questions/890812/how-to-rename-the-user-folder-in-windows-10.
+*** What I did
+The first thing I did was create a new local administrator account and sign into it.
+Microsoft tries really hard to obscure the fact that you can create local accounts because they want you to use your Microsoft account but basically, just go to Account Settings \to Family & other users \to Add someone else to this PC \to I don't have this person's sign-in information \to Add a user without a Microsoft account.
+Next, using that account, I followed the procedure that I found on StackExchange.
+To my surprise, it was fairly simple.
+Essentially, all I had to do to rename my user folder name was:
+1. Rename the folder using File Explorer.
+2. Using the Registry Editor, I navigated to =Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList=
+3. From there, I looked for the folder that had a value of my old user folder name for the =ProfileImagePath=.
+4. Then, I just set the =ProfileImagePath= value to the new name that I wanted and that's it!
+*** The lesson
+When naming your user folder, don't include any spaces.
 * Find me
 - 2Dimensions: https://2Dimensions.com/a/airicbear
 - About.me: https://about.me/airicbear
 - Amino: https://aminoapps.com/u/airicbear
-- Battle.net: airicbear#1229
+- Battle.net: =airicbear#1229=
 - BitBucket: https://bitbucket.org/airicbear/
 - BuyMeACoffee: https://buymeacoff.ee/airicbear
 - Canva: https://www.canva.com/airicbear
@@ -20,7 +177,7 @@
 - DataCamp: https://www.datacamp.com/profile/airicbear
 - Dataquest: https://app.dataquest.io/profile/19nguyene
 - DEV Community: https://dev.to/airicbear
-- Discord: drenching_rain#1423
+- Discord: =drenching_rain#1423=
 - Facebook: https://www.facebook.com/airicbear23
 - freeCodeCamp: https://www.freecodecamp.org/airicbear
 - GitHub: https://www.github.com/airicbear
@@ -35,15 +192,15 @@
 - League of Legends: https://na.op.gg/summoner/userName=smiteteleport
 - LeetCode: https://leetcode.com/airicbear
 - Mastodon: https://mastodon.social/@airicbear
-- Matrix (Riot.im): @airicbear:matrix.org
+- Matrix (Riot.im): =@airicbear:matrix.org=
 - Medium: https://medium.com/@airicbear
-- Origin: statictriangle
+- Origin: =statictriangle=
 - osu!: https://osu.ppy.sh/users/13478450
 - Pinterest: https://www.pinterest.com/airicbear/
 - Quora: https://www.quora.com/profile/Eric-Nguyen-369
 - Reddit: https://www.reddit.com/user/airicbear23
 - Scratch: https://scratch.mit.edu/users/airicbear
-- Snapchat: airicbear23
+- Snapchat: =airicbear23=
 - SoundCloud: https://soundcloud.com/airicbear
 - SourceForge: https://sourceforge.net/u/airicbear
 - Stack Overflow: https://stackoverflow.com/users/12446460/eric-nguyen
