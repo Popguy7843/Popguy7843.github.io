@@ -2,6 +2,9 @@
 #+export_file_name: index
 #+setupfile: ./main.setup
 * Welcome
+  :PROPERTIES:
+  :CUSTOM_ID: welcome
+  :END:
   This page is for all things about me as well as directions to other places where you'll find me.
   To make this website, I use [[https://www.spacemacs.org/][Spacemacs]] with [[https://orgmode.org/][org-mode]].
   In my =.org= files, I use the following shortcut, =C-c C-e h h=, to export from =.org= to =.html=.
@@ -9,13 +12,22 @@
 
   I have [[./blog.html][my blog]] on a separate =blog.html= file because including it here, on =index.html=, would make the page too cluttered.
 * About me
+  :PROPERTIES:
+  :CUSTOM_ID: about-me
+  :END:
 ** Introduction
    I'm a freshman majoring in [[https://bulletin.temple.edu/undergraduate/science-technology/computer-information-science/data-science-computation-modeling-bs/][Data Science with a concentration in computation and modeling]] at [[https://www.temple.edu/][Temple University]].
    I currently staff the welcome desk at the [[https://library.temple.edu/lcdss][Loretta C. Duckworth Scholars Studio]] as a student worker.
    Right now, [[https://julialang.org/][Julia]] is one my best friends as well as org-mode.
    When I'm sad, [[https://www.youtube.com/watch?v=DdLYSziSXII][TWICE makes me happy]].
 ** Background
+   :PROPERTIES:
+   :CUSTOM_ID: background
+   :END:
 *** Dance
+    :PROPERTIES:
+    :CUSTOM_ID: dance
+    :END:
     I started dancing back in elementary school around 4th grade when I was [[https://youtu.be/K1VLaXoRRdk][introduced to dubstep]] by my older brother.
     I quickly picked up dance by watching other dancers such as [[https://youtu.be/hUWAY8RNWGw][RemoteKontrol]] on YouTube and would practice dancing all the time.
     I thought I was the best dancer ever and all of my schoolmates would always ask me to show them [[https://www.youtu.be/watch?v=fMDvZ6bdqZE][my dance moves]].
@@ -50,6 +62,9 @@
     Growing up as the quiet kid in school, dance really helped me socially and it was a great conversation starter.
     I'm very thankful for my brother for introducing it to me in the first place and for the amazing people I had the chance to meet because of it.
 *** Programming
+    :PROPERTIES:
+    :CUSTOM_ID: programming
+    :END:
     As with everything, my older brother also introduced me to computer programming back in 7th grade.
     He initially showed me how to create websites using HTML, CSS, and JavaScript.
     I was quickly hooked and motivated to learn all about coding and making websites.
@@ -88,6 +103,9 @@
     Finally, I found latexmk and I've been using it with vim as my primary way to write LaTeX.
     In the last semester of the year, I started using this workflow to complete [[https://github.com/airicbear/university-physics-modern][physics assignments]] as well and it was awesome.
 * Find me
+  :PROPERTIES:
+  :CUSTOM_ID: find-me
+  :END:
   - 2Dimensions: https://2Dimensions.com/a/airicbear
   - About.me: https://about.me/airicbear
   - Amino: https://aminoapps.com/u/airicbear
