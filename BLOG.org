@@ -35,7 +35,7 @@
    vncserver -localhost
    #+end_example
 
-   When you initialize a server with =vncserver= for the first time, you'll be prompted for password setup, it's fairly straightforward.
+   When you initialize a server with =vncserver= for the first time, you'll be prompted for password setup; it's fairly straightforward.
    If you don't know what to answer for the last question just respond no.
 
    #+begin_example
