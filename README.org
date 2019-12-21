@@ -2,18 +2,18 @@
 #+export_file_name: index
 #+setupfile: ./main.setup
 * Welcome
-This page is for all things about me as well as directions to other places where you'll find me.
-To make this website, I use [[https://www.spacemacs.org/][Spacemacs]] with [[https://orgmode.org/][org-mode]].
-In my =.org= files, I use the following shortcut, =C-c C-e h h=, to export from =.org= to =.html=.
-For the [[https://github.com/airicbear/airicbear.github.io/blob/master/main.css][styling of this website]], I try to combine the [[https://github.com/nashamri/spacemacs-theme][Spacemacs color scheme]] along with the CSS of [[http://bettermotherfuckingwebsite.com/][bettermotherfuckingwebsite.com]].
+  This page is for all things about me as well as directions to other places where you'll find me.
+  To make this website, I use [[https://www.spacemacs.org/][Spacemacs]] with [[https://orgmode.org/][org-mode]].
+  In my =.org= files, I use the following shortcut, =C-c C-e h h=, to export from =.org= to =.html=.
+  For the [[https://github.com/airicbear/airicbear.github.io/blob/master/main.css][styling of this website]], I try to combine the [[https://github.com/nashamri/spacemacs-theme][Spacemacs color scheme]] along with the CSS of [[http://bettermotherfuckingwebsite.com/][bettermotherfuckingwebsite.com]].
 
-I have [[./blog.html][my blog]] on a separate =blog.html= file because including it here, on =index.html=, would make the page too cluttered.
+  I have [[./blog.html][my blog]] on a separate =blog.html= file because including it here, on =index.html=, would make the page too cluttered.
 * About me
 ** Introduction
-I'm a freshman majoring in [[https://bulletin.temple.edu/undergraduate/science-technology/computer-information-science/data-science-computation-modeling-bs/][Data Science with a concentration in computation and modeling]] at [[https://www.temple.edu/][Temple University]].
-I currently staff the welcome desk at the [[https://library.temple.edu/lcdss][Loretta C. Duckworth Scholars Studio]] as a student worker.
-Right now, [[https://julialang.org/][Julia]] is one my best friends as well as org-mode.
-When I'm sad, [[https://www.youtube.com/watch?v=DdLYSziSXII][TWICE makes me happy]].
+   I'm a freshman majoring in [[https://bulletin.temple.edu/undergraduate/science-technology/computer-information-science/data-science-computation-modeling-bs/][Data Science with a concentration in computation and modeling]] at [[https://www.temple.edu/][Temple University]].
+   I currently staff the welcome desk at the [[https://library.temple.edu/lcdss][Loretta C. Duckworth Scholars Studio]] as a student worker.
+   Right now, [[https://julialang.org/][Julia]] is one my best friends as well as org-mode.
+   When I'm sad, [[https://www.youtube.com/watch?v=DdLYSziSXII][TWICE makes me happy]].
 ** Background
 *** Dance
     I started dancing back in elementary school around 4th grade when I was [[https://youtu.be/K1VLaXoRRdk][introduced to dubstep]] by my older brother.
@@ -88,54 +88,54 @@ When I'm sad, [[https://www.youtube.com/watch?v=DdLYSziSXII][TWICE makes me happ
     Finally, I found latexmk and I've been using it with vim as my primary way to write LaTeX.
     In the last semester of the year, I started using this workflow to complete [[https://github.com/airicbear/university-physics-modern][physics assignments]] as well and it was awesome.
 * Find me
-- 2Dimensions: https://2Dimensions.com/a/airicbear
-- About.me: https://about.me/airicbear
-- Amino: https://aminoapps.com/u/airicbear
-- Battle.net: =airicbear#1229=
-- BitBucket: https://bitbucket.org/airicbear/
-- BuyMeACoffee: https://buymeacoff.ee/airicbear
-- Canva: https://www.canva.com/airicbear
-- CashMe: https://cash.me/airicbear
-- Codecademy: https://www.codecademy.com/profiles/airicbear
-- Codewars: https://www.codewars.com/users/airicbear
-- DataCamp: https://www.datacamp.com/profile/airicbear
-- Dataquest: https://app.dataquest.io/profile/19nguyene
-- DEV Community: https://dev.to/airicbear
-- Discord: =drenching_rain#1423=
-- Facebook: https://www.facebook.com/airicbear23
-- freeCodeCamp: https://www.freecodecamp.org/airicbear
-- GitHub: https://www.github.com/airicbear
-- GitLab: https://gitlab.com/airicbear
-- HackerNews: https://news.ycombinator.com/user?id=airicbear
-- HackerRank: https://hackerrank.com/airicbear
-- Instagram: https://www.instagram.com/airicbear
-- Itch.io: https://airicbear.itch.io/
-- Kaggle: https://www.kaggle.com/nguyene
-- Keybase: https://keybase.io/airicbear
-- Kongregate: https://www.kongregate.com/accounts/airicbear
-- League of Legends: https://na.op.gg/summoner/userName=smiteteleport
-- LeetCode: https://leetcode.com/airicbear
-- Mastodon: https://mastodon.social/@airicbear
-- Matrix (Riot.im): =@airicbear:matrix.org=
-- Medium: https://medium.com/@airicbear
-- Origin: =statictriangle=
-- osu!: https://osu.ppy.sh/users/13478450
-- Pinterest: https://www.pinterest.com/airicbear/
-- Quora: https://www.quora.com/profile/Eric-Nguyen-369
-- Reddit: https://www.reddit.com/user/airicbear23
-- Scratch: https://scratch.mit.edu/users/airicbear
-- Snapchat: =airicbear23=
-- SoundCloud: https://soundcloud.com/airicbear
-- SourceForge: https://sourceforge.net/u/airicbear
-- Stack Overflow: https://stackoverflow.com/users/12446460/eric-nguyen
-- Steam: https://steamcommunity.com/id/airicbear
-- Telegram: https://t.me/airicbear
-- TikTok: https://www.tiktok.com/@airicbear
-- Tinder: https://www.gotinder.com/@airicbear
-- Tumblr: https://airicbear.tumblr.com/
-- Twitch: https://www.twitch.tv/airicbear
-- Twitter: https://www.twitter.com/airicbear
-- Venmo: https://venmo.com/airicbear
-- Vimeo: https://vimeo.com/airicbear
-- Wikipedia: https://en.wikipedia.org/wiki/User:Airicbear
-- YouTube: https://www.youtube.com/channel/UCmGDakp9-fro-G5e_At56Aw
+  - 2Dimensions: https://2Dimensions.com/a/airicbear
+  - About.me: https://about.me/airicbear
+  - Amino: https://aminoapps.com/u/airicbear
+  - Battle.net: =airicbear#1229=
+  - BitBucket: https://bitbucket.org/airicbear/
+  - BuyMeACoffee: https://buymeacoff.ee/airicbear
+  - Canva: https://www.canva.com/airicbear
+  - CashMe: https://cash.me/airicbear
+  - Codecademy: https://www.codecademy.com/profiles/airicbear
+  - Codewars: https://www.codewars.com/users/airicbear
+  - DataCamp: https://www.datacamp.com/profile/airicbear
+  - Dataquest: https://app.dataquest.io/profile/19nguyene
+  - DEV Community: https://dev.to/airicbear
+  - Discord: =drenching_rain#1423=
+  - Facebook: https://www.facebook.com/airicbear23
+  - freeCodeCamp: https://www.freecodecamp.org/airicbear
+  - GitHub: https://www.github.com/airicbear
+  - GitLab: https://gitlab.com/airicbear
+  - HackerNews: https://news.ycombinator.com/user?id=airicbear
+  - HackerRank: https://hackerrank.com/airicbear
+  - Instagram: https://www.instagram.com/airicbear
+  - Itch.io: https://airicbear.itch.io/
+  - Kaggle: https://www.kaggle.com/nguyene
+  - Keybase: https://keybase.io/airicbear
+  - Kongregate: https://www.kongregate.com/accounts/airicbear
+  - League of Legends: https://na.op.gg/summoner/userName=smiteteleport
+  - LeetCode: https://leetcode.com/airicbear
+  - Mastodon: https://mastodon.social/@airicbear
+  - Matrix (Riot.im): =@airicbear:matrix.org=
+  - Medium: https://medium.com/@airicbear
+  - Origin: =statictriangle=
+  - osu!: https://osu.ppy.sh/users/13478450
+  - Pinterest: https://www.pinterest.com/airicbear/
+  - Quora: https://www.quora.com/profile/Eric-Nguyen-369
+  - Reddit: https://www.reddit.com/user/airicbear23
+  - Scratch: https://scratch.mit.edu/users/airicbear
+  - Snapchat: =airicbear23=
+  - SoundCloud: https://soundcloud.com/airicbear
+  - SourceForge: https://sourceforge.net/u/airicbear
+  - Stack Overflow: https://stackoverflow.com/users/12446460/eric-nguyen
+  - Steam: https://steamcommunity.com/id/airicbear
+  - Telegram: https://t.me/airicbear
+  - TikTok: https://www.tiktok.com/@airicbear
+  - Tinder: https://www.gotinder.com/@airicbear
+  - Tumblr: https://airicbear.tumblr.com/
+  - Twitch: https://www.twitch.tv/airicbear
+  - Twitter: https://www.twitter.com/airicbear
+  - Venmo: https://venmo.com/airicbear
+  - Vimeo: https://vimeo.com/airicbear
+  - Wikipedia: https://en.wikipedia.org/wiki/User:Airicbear
+  - YouTube: https://www.youtube.com/channel/UCmGDakp9-fro-G5e_At56Aw

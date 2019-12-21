@@ -1,6 +1,96 @@
 #+title: airicbear >> blog
 #+export_file_name: blog
 #+setupfile: ./main.setup
+* <2019-01-26> Welcome to my Blog!
+Here, I plan to post about whatever I feel like writing about.
+Some things you should know about me is that I enjoy learning about computer programming and mathematics.
+
+With regards to programming, my best skills are making static websites with HTML, CSS, and JS, but I have done a little bit of work with Node.js.
+In addition to web development, I also have some experience in using data science languages Python, R, and Julia which I use primarily for my math and statistics homework.
+
+Right now, I’m taking a Calculus course in high school, which admittedly is not too advanced, but it is really interesting! Also, I’m the only student in the class which makes the learning experience really amazing.
+I haven’t yet gotten to learning about integrals, but I’m looking forward to it as I really need to learn integration to solve differential equations, which is another topic I’m interested in learning more about.
+
+For my hobbies, I like to dance, listen to music, and play video games.
+
+Recently, I started playing Destiny 2 and from my experience, I think it’s a great game.
+My favorite part about it is how satisfying the combat feels.
+Other games I currently like to play are Overwatch, League of Legends, and Team Fortress 2.
+I recently got a new laptop, the Lenovo Yoga 730 15″, that has much more storage and processing power than the previous, so now I can play more games! One problem that I’ve noticed with this new laptop is that it freezes when the GPU isn’t being used, but fortunately that problem has mostly been resolved after performing a factory reset on the machine.
+
+I don’t really know too much about music, but the main genres I listen to are hip-hop and K-pop.
+I especially enjoy music that I can dance to.
+Some of my favorite artists include TWICE, IU, SUNMI, BOL4, and BTS.
+I recently started streaming music through Spotify, so I have been listening to a much more diverse set of tracks, compared to when I would simply download my favorite music off of YouTube.
+
+As for dance, I started out by dancing to Skrillex’s music back in grade school. Now, I primarily do b-boying and K-pop choreography.
+* <2019-01-27> Looking back at AP Comp Sci
+Specifically, this [[./assets/SpaceInvaders_UML_v4.png][UML diagram]] I made.
+
+It’s my only UML diagram I have ever made as of now.
+It reminds me of how awesome AP Comp Sci was as a class.
+I made so many projects that I’m really proud of in that class, even though the code wasn’t the prettiest.
+I barely knew anything about computer science other than there were IDEs that magically would run Java programs when you click the run button.
+I remember how I was pretty confused for most of the year about things, especially things like the rendering the Mandelbrot set and using HashMaps, which I honestly don’t know much about to this day.
+I remember how a good number of my friends dropped out of the class, though I wouldn’t realize it since I pretty much would just keep to myself in class.
+
+I remember how a good number of my friends dropped out of the class, though I wouldn’t realize it since I pretty much would just keep to myself in class.
+Though I do remember one particular friend who dropped the class after about three days since the start of the school year, after being completely confused about what Mr. Sharick was talking about in class.
+She dropped to AP CS Principles, which is supposedly easier, but she ultimately ended up dropping that class as well.
+
+Goodbye!
+* <2019-02-05> I just played an hour of Divinity: Original Sin 2
+I start out as a prisoner on a ship (I don’t really remember much more).
+I get killed a few times as I figure out what exactly I’m supposed to do, once by a magister and another by a lone sheep.
+Eventually, after many mistakes, I understand how to play.
+
+I find a fellow prisoner, except he is behind bars.
+He asks me whether I could free him by pulling the lever.
+I accept his request, expecting he return the favor.
+Just as I am about to pull the lever, the guard on duty wakes up, thinking that his shift is over, only to find that I’m not his supervisor, but a Sourcerer.
+I fail to persuade him to leave, so I pull the lever and free the prisoner as we begin to fight.
+The fight ends pretty quickly, as the prisoner has powerful fire abilities.
+I was happy that I now have a friend, or so I thought.
+He instantly begins to attack me, after finishing off the guard, remarking how he promised to “free” me.
+
+Though it was tough, I was able to flee the other prisoner and climb up the ladder where I found myself in the safety of a magistrate.
+Trying to test how the suspicion system worked, I secretly steal a book behind the magistrates back and then get her to notice the missing book.
+She immediately notices the missing book and demands that I be searched.
+I allow her to search me and to no one’s surprise, she find’s the stolen book and the fight begins.
+I end up fleeing and climbing down the ladder, as the magistrate is far too powerful.
+
+I climb back up the ladder, expecting the magistrate to persist her hostility towards me, however instead she stands idly.
+In some sense I was kind of disappointed, yet also very relieved.
+
+As I pass by her, I find that appears to have been a murder on the ship.
+The investigation is ongoing and I should not involve myself with it.
+
+Later on, I find myself among many other prisoner Sourcerers, all wearing the same bright green necklace as mine, preventing Sourcerers to use their abilities.
+I converse with many of them and it was very enjoyable.
+
+After talking to the other Sourcerers, I come to a room in which a Sourcerer who seems to be an old lady is being interrogated by three magistrates.
+She declares that she is the one who committed the murder on the ship and goes as far as to say there are more people on the ship who need to be killed.
+She somehow takes off her necklace and proceeds to explode, killing every magistrate on board, while knocking out every Sourcerer on board.
+
+I wake up from being knocked out, only to realize the ship is sinking fast and the sea is rushing in.
+I look around, picking up random objects, not really knowing what to do until I find a staircase leading up to the deck.
+As I emerge from the staircase, I see a magistrate and two large bugs.
+The magistrate is swiftly obliterated at the whip of a massive Kraken-like tentacle, leaving the two bugs remaining.
+I easily deal with the bugs using my handy crossbow and AoE poison ability.
+
+I roam the deck, looking for some sort of life boat and find one.
+There is one life boat that has yet to depart and on it are two dwarves and a child.
+The dwarves cannot figure out how to lower the boat, but insist they must leave the others on board behind, as the ship is bound to sink at any moment.
+The child opposes, saying that the others on the ship must be saved.
+
+I decide that I should save the others on board and descend the ladders leading downwards into the doomed ship.
+To my surprise, the Sourcerers all wake from their unconcious state as I arrive, while bugs start to spawn out of nowhere.
+
+The bugs are easily dealt with and we begin to depart the ship.
+Ultimately, we were too late and everyone on the ship died as the giant squid creature encased the ship in its many tentacles.
+
+As I fell into the depths of the ocean, some sort of god-like voice spoke, saying something along the lines of “I have still plans for you, child”.
+I wake up on the coast of Fort Joy as the only one alive.
 * <2019-08-11> Termux dwm Guide
 ** Installation
 
