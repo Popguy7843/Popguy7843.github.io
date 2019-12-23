@@ -1,4 +1,5 @@
 #+title: airicbear >> home
+#+description: Eric Nguyen's (airicbear) personal website. Here, you can find everything about me as well as directions to other places you can find me.
 #+export_file_name: index
 #+setupfile: ./main.setup
 * Welcome
@@ -133,7 +134,7 @@
   - GitHub: https://www.github.com/airicbear
   - GitLab: https://gitlab.com/airicbear
   - Gravatar: https://en.gravatar.com/19nguyene
-  - HackerNews: https://news.ycombinator.com/user?id=airicbear
+  - Hacker News: https://news.ycombinator.com/user?id=airicbear
   - HackerRank: https://hackerrank.com/airicbear
   - Instagram: https://www.instagram.com/airicbear
   - Itch.io: https://airicbear.itch.io/

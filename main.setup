@@ -1,2 +1,6 @@
 #+html_head: <link rel="stylesheet" type="text/css" href="main.css">
 #+html_head: <link rel="icon" href="favicon.ico">
+#+author: Eric Nguyen
+#+email: tuk94307@temple.edu
+#+language: en
+#+options: ':t email:t

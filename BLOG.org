@@ -1,4 +1,5 @@
 #+title: airicbear >> blog
+#+description: Eric Nguyen's (airicbear) personal blog. Here, I write about my thoughts, guides, advice, reflections, and basically anything I feel like writing about.
 #+export_file_name: blog
 #+setupfile: ./main.setup
 * <2019-01-26> Welcome to my Blog!
