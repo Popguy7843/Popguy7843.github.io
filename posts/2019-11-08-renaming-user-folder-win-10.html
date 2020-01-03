@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2020-01-03 Fri 09:25 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Renaming A User Folder in Windows 10</title>
+<meta name="generator" content="Org mode">
+<meta name="author" content="Eric Nguyen">
+<link rel="icon" href="favicon.ico"><link rel="stylesheet" type="text/css" href="assets/css/main.css">
+</head>
+<body>
+<div id="preamble" class="status">
+<nav><p>Navigation: <a href="index.html">Home</a> <a href="archive.html">Blog</a> <a href="about.html">About</a> <a href="contact.html">Contact</a> </nav>
+</div>
+<div id="content">
+<header>
+<h1 class="title">Renaming A User Folder in Windows 10</h1>
+</header><nav id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgf28fdc2">1. Introduction</a></li>
+<li><a href="#orga2f4ddc">2. What I did</a></li>
+<li><a href="#orgeb11ae5">3. The lesson</a></li>
+</ul>
+</div>
+</nav>
+
+<div id="outline-container-orgf28fdc2" class="outline-2">
+<h2 id="orgf28fdc2"><span class="section-number-2">1</span> Introduction</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Lately, I&rsquo;ve been using Windows 10 again and in the process of setting up my Windows 10 account, I made the mistake of including a space in my user folder name, e.g. <code>C:/Users/Eric Nguyen</code>.
+</p>
+
+<p>
+At one point, it became apparent to me that this space character was breaking programs, so I decided to rename my user folder name to omit the space by following instructions I found on StackExchange: <a href="https://superuser.com/questions/890812/how-to-rename-the-user-folder-in-windows-10">https://superuser.com/questions/890812/how-to-rename-the-user-folder-in-windows-10</a>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orga2f4ddc" class="outline-2">
+<h2 id="orga2f4ddc"><span class="section-number-2">2</span> What I did</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+The first thing I did was create a new local administrator account and sign into it.
+Microsoft tries really hard to obscure the fact that you can create local accounts because they want you to use your Microsoft account but basically, just go to Account Settings &rarr; Family &amp; other users &rarr; Add someone else to this PC &rarr; I don&rsquo;t have this person&rsquo;s sign-in information &rarr; Add a user without a Microsoft account.
+Next, using that account, I followed the procedure that I found on StackExchange.
+To my surprise, it was fairly simple.
+Essentially, all I had to do to rename my user folder name was:
+</p>
+<ol class="org-ol">
+<li>Rename the folder using File Explorer.</li>
+<li>Using the Registry Editor, I navigated to <code>Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList</code></li>
+<li>From there, I looked for the folder that had a value of my old user folder name for the <code>ProfileImagePath</code>.</li>
+<li>Then, I just set the <code>ProfileImagePath</code> value to the new name that I wanted and that&rsquo;s it!</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-orgeb11ae5" class="outline-2">
+<h2 id="orgeb11ae5"><span class="section-number-2">3</span> The lesson</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+When naming your user folder, don&rsquo;t include any spaces.
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Date: 2019-11-08</p>
+<p class="author">Author: Eric Nguyen</p>
+<p class="email">Email: <a href="mailto:tuk94307@temple.edu">tuk94307@temple.edu</a></p>
+<p class="date">Created: 2020-01-03 Fri 09:25</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+#+title: Renaming A User Folder in Windows 10
+#+date: 2019-11-08
+
+* Introduction
+
+Lately, I've been using Windows 10 again and in the process of setting up my Windows 10 account, I made the mistake of including a space in my user folder name, e.g. =C:/Users/Eric Nguyen=.
+
+At one point, it became apparent to me that this space character was breaking programs, so I decided to rename my user folder name to omit the space by following instructions I found on StackExchange: https://superuser.com/questions/890812/how-to-rename-the-user-folder-in-windows-10.
+
+* What I did
+
+The first thing I did was create a new local administrator account and sign into it.
+Microsoft tries really hard to obscure the fact that you can create local accounts because they want you to use your Microsoft account but basically, just go to Account Settings \to Family & other users \to Add someone else to this PC \to I don't have this person's sign-in information \to Add a user without a Microsoft account.
+Next, using that account, I followed the procedure that I found on StackExchange.
+To my surprise, it was fairly simple.
+Essentially, all I had to do to rename my user folder name was:
+1. Rename the folder using File Explorer.
+2. Using the Registry Editor, I navigated to =Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList=
+3. From there, I looked for the folder that had a value of my old user folder name for the =ProfileImagePath=.
+4. Then, I just set the =ProfileImagePath= value to the new name that I wanted and that's it!
+
+* The lesson
+
+When naming your user folder, don't include any spaces.

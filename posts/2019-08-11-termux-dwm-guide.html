@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2020-01-03 Fri 09:25 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Termux dwm Guide</title>
+<meta name="generator" content="Org mode">
+<meta name="author" content="Eric Nguyen">
+<link rel="icon" href="favicon.ico"><link rel="stylesheet" type="text/css" href="assets/css/main.css">
+</head>
+<body>
+<div id="preamble" class="status">
+<nav><p>Navigation: <a href="index.html">Home</a> <a href="archive.html">Blog</a> <a href="about.html">About</a> <a href="contact.html">Contact</a> </nav>
+</div>
+<div id="content">
+<header>
+<h1 class="title">Termux dwm Guide</h1>
+</header><nav id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org288a552">1. Installation</a>
+<ul>
+<li><a href="#org1195751">1.1. Apps</a></li>
+<li><a href="#orga758745">1.2. Termux</a></li>
+</ul>
+</li>
+<li><a href="#orgd21c446">2. Run</a></li>
+<li><a href="#org1b22813">3. Connect</a></li>
+<li><a href="#org1a6e6bc">4. Clean up</a></li>
+</ul>
+</div>
+</nav>
+
+<div id="outline-container-org288a552" class="outline-2">
+<h2 id="org288a552"><span class="section-number-2">1</span> Installation</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org1195751" class="outline-3">
+<h3 id="org1195751"><span class="section-number-3">1.1</span> Apps</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li><a href="https://termux.com/">Termux</a></li>
+<li><a href="https://www.realvnc.com/en/connect/download/viewer/android/">VNC Viewer</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orga758745" class="outline-3">
+<h3 id="orga758745"><span class="section-number-3">1.2</span> Termux</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+Within Termux, execute the following commands:
+</p>
+
+<pre class="example">
+pkg install x11-repo dwm st tigervnc
+echo "dwm &amp;" &gt; ~/.vnc/xstartup
+echo "export DISPLAY=\":1\"" &gt;&gt; ~/.bashrc
+</pre>
+
+<p>
+<b>Notes:</b>
+</p>
+
+<ul class="org-ul">
+<li>You can replace <code>dwm</code> with your preferred window manager such as <code>openbox</code> (I tried <code>i3</code>, but it didn&rsquo;t work for whatever reason).</li>
+<li>We install <code>st</code> terminal here, but you can use whichever terminal you prefer that is available in Termux (e.g. <code>aterm</code>, <code>xterm</code>).</li>
+<li><code>~/.vnc/xstartup</code> is the file that specifies which programs are run on startup. In this case, we tell X to run <code>dwm</code> on startup.</li>
+<li>Instead of using <code>echo</code>, you can use your preferred text editor such as <code>nano</code>, <code>vi</code>, or <code>ed</code>. If your text editor isn&rsquo;t available, you can simply install it by executing <code>pkg install</code> and your package name (e.g. <code>pkg install nano</code>).</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd21c446" class="outline-2">
+<h2 id="orgd21c446"><span class="section-number-2">2</span> Run</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+To run dwm, you will need to start a local X server and then connect to it.
+To do so, you can execute the following in Termux:
+</p>
+
+<pre class="example">
+vncserver -localhost
+</pre>
+
+<p>
+When you initialize a server with <code>vncserver</code> for the first time, you&rsquo;ll be prompted for password setup; it&rsquo;s fairly straightforward.
+If you don&rsquo;t know what to answer for the last question just respond no.
+</p>
+
+<pre class="example">
+Would you like to enter a view-only password (y/n)? n
+</pre>
+</div>
+</div>
+
+<div id="outline-container-org1b22813" class="outline-2">
+<h2 id="org1b22813"><span class="section-number-2">3</span> Connect</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+To connect to your newly hosted server, you can open the VNC Viewer app on your phone and add a new connection by pressing the circle &ldquo;plus&rdquo; button.
+For your address, type <code>127.0.0.1:</code> and then your port number.
+To calculate your port number, add your display number to 5900.
+In this case, we use 1 as our display number, as set in our <code>~/.bashrc</code>, so we&rsquo;d write in our address form, <code>127.0.0.1:5901</code>.
+The name can be whatever you want it to be, but I simply use <code>Termux</code> for it.
+</p>
+
+<p>
+Now that you&rsquo;ve setup your connection, you can easily connect to it through the VNC Viewer menu and entering your password.
+If you&rsquo;ve successfully connected, congratulations!
+If you have no idea how to use dwm, you can refer to <a href="https://ratfactor.com/slackware/dwm/">Dave&rsquo;s Visual Guide to dwm</a>.
+Basically, <code>Alt+Shift+Enter</code> to open terminals, <code>Alt+Shift+c</code> to close windows.
+If you were unable to connect to your server, refer to <a href="https://wiki.termux.com/wiki/Graphical_Environment">Termux&rsquo;s official guide</a> on setting up a graphical environment, as I may have missed something.
+</p>
+
+<p>
+<b>Note:</b> For some reason, I have trouble opening certain programs such as <code>mupdf</code>, <code>dmenu</code>, and <code>emacs</code>.
+So if you&rsquo;ve got the same problems, then I wouldn&rsquo;t worry too much about it, unless you&rsquo;ve seen it work for other people.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1a6e6bc" class="outline-2">
+<h2 id="org1a6e6bc"><span class="section-number-2">4</span> Clean up</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+To kill a server (replace <code>1</code> with your server index):
+</p>
+
+<pre class="example">
+vncserver -kill :1
+</pre>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Date: 2019-08-11</p>
+<p class="author">Author: Eric Nguyen</p>
+<p class="email">Email: <a href="mailto:tuk94307@temple.edu">tuk94307@temple.edu</a></p>
+<p class="date">Created: 2020-01-03 Fri 09:25</p>
+</div>
+</body>
+</html>

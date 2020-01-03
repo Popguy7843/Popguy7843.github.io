@@ -1,0 +1,43 @@
+#+title: My Windows 10 Workflow
+#+date: 2019-12-21
+
+* Introduction
+
+So, I've been fed up with Windows 10 and it's annoying that Spacemacs won't work with org-babel-execute.
+I mean, it works fine in vanilla Emacs; but I'm honestly just finding an excuse to switch to a different OS just because I can't stand using the same OS.
+It gets boring.
+
+I'm writing this post for whenever I need to use Windows 10 so I don't have to memorize which settings I need to turn on or off, which programs to install, etc.
+
+* Essential configurations
+
+Here are the essential configurations for my Windows 10 workflow.
+
+1. Adjust the appearance and performance of Windows
+   - In Performance Options > Visual Effects, uncheck all of the boxes except for "Show thumbnails instead of icons".
+
+2. Right click the taskbar and go to Taskbar settings
+   - Taskbar location on screen: Top
+   - Combine taskbar buttons: Never
+
+* Essential software
+
+Try to keep the amount of software installed at a minimum.
+These are essential software that should be installed.
+
+- Emacs
+- Keybase
+- MikTeX
+- Window Terminal (Preview)
+
+* Keybindings to know
+
+Keybindings are the most important thing for feeling and looking like a 1337 hacker.
+These are the ones that I find myself using most often.
+Note that =W= corresponds to the Windows key, =S= to the Shift key, and =C= to the Ctrl key.
+
+- =W-e= \to Open File Explorer
+- =W-S-d= \to Create a new workspace
+- =C-W-f4= \to Delete the current workspace
+- =W-[0-9]= \to Jump to specified application in current workspace
+- =W-l= \to Go to lock screen

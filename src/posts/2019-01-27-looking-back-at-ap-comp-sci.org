@@ -1,0 +1,21 @@
+#+title: Looking back at AP Comp Sci
+#+date: 2019-01-27
+
+Specifically, this UML diagram I made:
+
+#+attr_html: :width 480px
+#+caption: SpaceInvaders UML diagram
+[[file:../assets/images/SpaceInvaders_UML_v4.png]]
+
+It’s my only UML diagram I have ever made as of now.
+It reminds me of how awesome AP Comp Sci was as a class.
+I made so many projects that I’m really proud of in that class, even though the code wasn’t the prettiest.
+I barely knew anything about computer science other than there were IDEs that magically would run Java programs when you click the run button.
+I remember how I was pretty confused for most of the year about things, especially things like the rendering the Mandelbrot set and using HashMaps, which I honestly don’t know much about to this day.
+I remember how a good number of my friends dropped out of the class, though I wouldn’t realize it since I pretty much would just keep to myself in class.
+
+I remember how a good number of my friends dropped out of the class, though I wouldn’t realize it since I pretty much would just keep to myself in class.
+Though I do remember one particular friend who dropped the class after about three days since the start of the school year, after being completely confused about what Mr. Sharick was talking about in class.
+She dropped to AP CS Principles, which is supposedly easier, but she ultimately ended up dropping that class as well.
+
+Goodbye!

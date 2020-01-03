@@ -1,0 +1,25 @@
+#+title: Welcome to my Blog!
+#+date: 2019-01-26
+
+Here, I plan to post about whatever I feel like writing about.
+Some things you should know about me is that I enjoy learning about computer programming and mathematics.
+
+With regards to programming, my best skills are making static websites with HTML, CSS, and JS, but I have done a little bit of work with Node.js.
+In addition to web development, I also have some experience in using data science languages Python, R, and Julia which I use primarily for my math and statistics homework.
+
+Right now, I’m taking a Calculus course in high school, which admittedly is not too advanced, but it is really interesting! Also, I’m the only student in the class which makes the learning experience really amazing.
+I haven’t yet gotten to learning about integrals, but I’m looking forward to it as I really need to learn integration to solve differential equations, which is another topic I’m interested in learning more about.
+
+For my hobbies, I like to dance, listen to music, and play video games.
+
+Recently, I started playing Destiny 2 and from my experience, I think it’s a great game.
+My favorite part about it is how satisfying the combat feels.
+Other games I currently like to play are Overwatch, League of Legends, and Team Fortress 2.
+I recently got a new laptop, the Lenovo Yoga 730 15″, that has much more storage and processing power than the previous, so now I can play more games! One problem that I’ve noticed with this new laptop is that it freezes when the GPU isn’t being used, but fortunately that problem has mostly been resolved after performing a factory reset on the machine.
+
+I don’t really know too much about music, but the main genres I listen to are hip-hop and K-pop.
+I especially enjoy music that I can dance to.
+Some of my favorite artists include TWICE, IU, SUNMI, BOL4, and BTS.
+I recently started streaming music through Spotify, so I have been listening to a much more diverse set of tracks, compared to when I would simply download my favorite music off of YouTube.
+
+As for dance, I started out by dancing to Skrillex’s music back in grade school. Now, I primarily do b-boying and K-pop choreography.

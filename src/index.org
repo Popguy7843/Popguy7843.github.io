@@ -1,0 +1,8 @@
+#+title: Home
+#+description: Eric Nguyen's (airicbear) personal website. Here, you can find everything about me, including my blog and contact information!
+
+Welcome to my website.
+
+I have remade it using org-publish!
+Now there is an actual navigation bar and the blog posts are on separate pages, as well as my about me and contact pages!
+Read how I did it in the [[https://github.com/airicbear/airicbear.github.io][README of my GitHub repository]]!
