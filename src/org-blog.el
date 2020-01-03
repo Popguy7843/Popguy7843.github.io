@@ -1,5 +1,5 @@
 (defvar org-blog-css
-  "<link rel=\"stylesheet\" type=\"text/css\" href=\"assets/css/main.css\">")
+  "<link rel=\"stylesheet\" type=\"text/css\" href=\"/assets/css/main.css\">")
 
 (defvar org-blog-icon
   "<link rel=\"icon\" href=\"favicon.ico\">")
@@ -12,10 +12,10 @@
   (concat "<nav>"
           "<p>"
           "Navigation: "
-          "<a href=\"index.html\">Home</a> "
-          "<a href=\"archive.html\">Blog</a> "
-          "<a href=\"about.html\">About</a> "
-          "<a href=\"contact.html\">Contact</a> "
+          "<a href=\"/index.html\">Home</a> "
+          "<a href=\"/archive.html\">Blog</a> "
+          "<a href=\"/about.html\">About</a> "
+          "<a href=\"/contact.html\">Contact</a> "
           "</nav>"))
 
 (setq org-publish-project-alist
