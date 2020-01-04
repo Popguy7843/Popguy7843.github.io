@@ -6,15 +6,11 @@ This repository contains the source code for my personal website (Eric Nguyen).
 * Editing
 
 I use [[https://www.spacemacs.org][Spacemacs]] and [[https://orgmode.org][org-mode]] to publish this website via [[https://orgmode.org/manual/Publishing.html][org-publish]].
-I configured Spacemacs to evaluate =src/org-blog.el= every time I open Emacs.
-When I modify my =.org= files, I use =C-c C-e P x= to publish the project.
-If I want to publish unmodified files, I use =M-: (org-publish "orgfiles" t)=.
+When I modify my =.org= files, I use =org-export= (bound to =C-c C-e P x=) to publish the project.
+If I want to publish unmodified files, I use =eval-expression= (bound to =M-:=) and then evaluate =(org-publish "orgfiles" t)=.
 
-When I modify my =src/org-blog.el=, I use =SPC f e R=, since I define =.(load "~/Workspace/airicbear.github.io/src/org-blog.el")= in my =~/.spacemacs= file within the =dotspacemacs/user-config= function.
-Note that Emacs will not redefine variables using =defvar=.
-I haven't figured out how to do that within Emacs yet, so I simply restart Emacs.
-
-I also haven't really figured out how the sitemap settings work yet, so you'll see random navigation links sprinkled in my =archive.org=.
+When I modify my =src/org-blog.el=, I use =load-file= to redefine =org-publish-project-alist=.
+Note that Emacs will not redefine variables using =defvar= or =defun= unless you use =eval-defun= (bound to =C-M-x= or =, e f=).
 
 * Credits
 

@@ -1,14 +1,33 @@
+(defun org-blog-sitemap-format-entry (entry _style project)
+  "Return string for each ENTRY in PROJECT."
+  (when (s-starts-with-p "posts/" entry)
+    (format "@@html:<span class=\"archive-item\"><span class=\"archive-date\">@@%s@@html:</span> @@[[file:%s][%s]]@@html:</span>@@"
+            (format-time-string "%Y-%m-%d %a %H:%M"
+                                (org-publish-find-date entry project))
+            entry
+            (org-publish-find-title entry project))))
+
+(defun org-blog-sitemap-function (title list)
+  "Return sitemap using TITLE and LIST returned by `org-blog-sitemap-format-entry'."
+  (concat "#+title: " title "\n"
+          "\n#+begin_archive\n"
+          (mapconcat (lambda (li)
+                       (format "@@html:<li>@@%s@@html:</li>@@" (car li)))
+                     (seq-filter #'car (cdr list))
+                     "\n")
+          "\n#+end_archive\n"))
+
 (defvar org-blog-css
   "<link rel=\"stylesheet\" type=\"text/css\" href=\"/assets/css/main.css\">")
 
 (defvar org-blog-icon
-  "<link rel=\"icon\" href=\"favicon.ico\">")
+  "<link rel=\"icon\" href=\"/favicon.ico\">")
 
 (defvar org-blog-head
   (concat org-blog-icon
           org-blog-css))
 
-(defvar topnav
+(defvar org-blog-nav
   (concat "<nav>"
           "<p>"
           "Navigation: "
@@ -44,7 +63,7 @@
          :html-html5-fancy t
          :html-validation-link nil
          :html-head ,org-blog-head
-         :html-preamble ,topnav
+         :html-preamble ,org-blog-nav
          :style ,org-blog-css
 
          ;; Sitemap settings
@@ -53,6 +72,6 @@
          :sitemap-title "Blog"
          :sitemap-style list
          :sitemap-sort-files anti-chronologically
-         ;; :sitemap-format-entry org-blog-sitemap-format-entry
-         ;; :sitemap-function org-blog-sitemap-function
+         :sitemap-format-entry org-blog-sitemap-format-entry
+         :sitemap-function org-blog-sitemap-function
          )))

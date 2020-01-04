@@ -1,11 +1,10 @@
-#+TITLE: Blog
+#+title: Blog
 
-- [[file:contact.org][Contact]]
-- [[file:about.org][About Me]]
-- [[file:posts/2019-12-21-win-10-workflow.org][My Windows 10 Workflow]]
-- [[file:posts/2019-11-08-renaming-user-folder-win-10.org][Renaming A User Folder in Windows 10]]
-- [[file:posts/2019-08-11-termux-dwm-guide.org][Termux dwm Guide]]
-- [[file:posts/2019-02-05-divinity-original-sin-2.org][I just played an hour of Divinity: Original Sin 2]]
-- [[file:posts/2019-01-27-looking-back-at-ap-comp-sci.org][Looking back at AP Comp Sci]]
-- [[file:posts/2019-01-06-welcome-to-my-blog.org][Welcome to my Blog!]]
-- [[file:index.org][Home]]
+#+begin_archive
+@@html:<li>@@@@html:<span class="archive-item"><span class="archive-date">@@2020-01-03 Fri 01:28@@html:</span> @@[[file:posts/2019-12-21-win-10-workflow.org][My Windows 10 Workflow]]@@html:</span>@@@@html:</li>@@
+@@html:<li>@@@@html:<span class="archive-item"><span class="archive-date">@@2020-01-03 Fri 01:27@@html:</span> @@[[file:posts/2019-11-08-renaming-user-folder-win-10.org][Renaming A User Folder in Windows 10]]@@html:</span>@@@@html:</li>@@
+@@html:<li>@@@@html:<span class="archive-item"><span class="archive-date">@@2020-01-03 Fri 01:26@@html:</span> @@[[file:posts/2019-08-11-termux-dwm-guide.org][Termux dwm Guide]]@@html:</span>@@@@html:</li>@@
+@@html:<li>@@@@html:<span class="archive-item"><span class="archive-date">@@2020-01-03 Fri 01:25@@html:</span> @@[[file:posts/2019-02-05-divinity-original-sin-2.org][I just played an hour of Divinity: Original Sin 2]]@@html:</span>@@@@html:</li>@@
+@@html:<li>@@@@html:<span class="archive-item"><span class="archive-date">@@2020-01-03 Fri 01:22@@html:</span> @@[[file:posts/2019-01-27-looking-back-at-ap-comp-sci.org][Looking back at AP Comp Sci]]@@html:</span>@@@@html:</li>@@
+@@html:<li>@@@@html:<span class="archive-item"><span class="archive-date">@@2020-01-03 Fri 01:19@@html:</span> @@[[file:posts/2019-01-06-welcome-to-my-blog.org][Welcome to my Blog!]]@@html:</span>@@@@html:</li>@@
+#+end_archive
