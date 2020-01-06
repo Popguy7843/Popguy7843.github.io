@@ -4,7 +4,8 @@
 * Preferred methods of contact
 
   The fastest way to reach me is via [[https://keybase.io][Keybase Chat]] (Keybase account: [[https://keybase.io/airicbear][airicbear]]).
-  Alternatively, you can either email me or message me on Twitter.
+  Alternatively, you can either [[mailto:tuk94307@temple.edu][email me]], [[https://twitter.com/airicbear/][message me on Twitter]], or use whatever
+  method you most prefer by referring to my [[Aliases]] and [[Links]] sections.
 
 * Aliases
   :PROPERTIES:
@@ -61,6 +62,7 @@
   - MangaDex: https://mangadex.org/user/686253/airicbear
   - Mastodon: https://mastodon.social/@airicbear
   - Medium: https://medium.com/@airicbear
+  - Messenger: https://m.me/airicbear23
   - MyAnimeList: https://myanimelist.net/profile/airicbear
   - osu!: https://osu.ppy.sh/users/13478450
   - PayPal: https://paypal.me/airicbear
