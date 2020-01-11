@@ -1,11 +1,11 @@
 #+title: Contact
-#+description: Contact Eric Nguyen, student of Data Science at Temple University.
+#+description: Contact Eric Nguyen, student of Data Science at Temple University, class of 2023.
 
 * Preferred methods of contact
 
-  The fastest way to reach me is via [[https://keybase.io][Keybase Chat]] (Keybase account: [[https://keybase.io/airicbear][airicbear]]).
+  The fastest and most reliable way to reach me is via [[https://keybase.io][Keybase Chat]] (Keybase account: [[https://keybase.io/airicbear][airicbear]]).
   Alternatively, you can either [[mailto:tuk94307@temple.edu][email me]], [[https://twitter.com/airicbear/][message me on Twitter]], or use whatever
-  method you most prefer by referring to my [[Aliases]] and [[Links]] sections.
+  method you most prefer by referring to my [[Aliases][Aliases]] and [[Links][Links]] sections.
 
 * Aliases
   :PROPERTIES:
@@ -85,4 +85,3 @@
   - Vimeo: https://vimeo.com/airicbear
   - Wikipedia: https://en.wikipedia.org/wiki/User:Airicbear
   - YouTube: https://www.youtube.com/channel/UCmGDakp9-fro-G5e_At56Aw
-

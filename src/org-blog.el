@@ -41,7 +41,7 @@
       `(("orgfiles"
          :base-directory "~/Workspace/airicbear.github.io/src/"
          :recursive t
-         :publishing-directory "~/Workspace/airicbear.github.io/"
+         :publishing-directory "~/Workspace/airicbear.github.io/docs/"
          :publishing-function org-html-publish-to-html
 
          :lang "en"
